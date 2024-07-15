@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cat or Dog Classifier</title>
+</head>
+<body>
+    <h1>Upload an image to classify</h1>
+    <form action="/predict" method="post" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <input type="submit" value="Predict">
+    </form>
+    <h2 id="result"></h2>
+</body>
+</html>
